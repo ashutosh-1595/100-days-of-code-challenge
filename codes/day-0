@@ -1,0 +1,4 @@
+name="ashutosh"
+print("Hello "+name)
+
+
