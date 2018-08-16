@@ -1,0 +1,6 @@
+name= input()
+str="ashutosh "
+print (name[:4])
+print (name[9:15])
+print (str*2)
+print ("hello! "+ str)
