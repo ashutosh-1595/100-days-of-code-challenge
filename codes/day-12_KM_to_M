@@ -1,0 +1,4 @@
+kilometers=input("enter value in kelometers= ")
+conv_fac=0.621371
+miles=kilometers*conv_fac
+print("%0.3f kilometers = %0.3f miles"%(kilometers,miles))
