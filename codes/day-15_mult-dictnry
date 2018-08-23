@@ -1,0 +1,5 @@
+d={'A':10,'B':10,'c':239}
+t=1
+for i in d:
+    t=t*d[i]
+print(t)
