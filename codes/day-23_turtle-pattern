@@ -1,0 +1,10 @@
+import turtle
+
+x=turtle.Turtle()
+x.speed(0)
+length=500
+angle=91
+for i in range(length):
+    x.forward(i)
+    x.left(angle)
+turtle.exitonclick()
