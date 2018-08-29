@@ -1,0 +1,2 @@
+c=input("enter any a character: ")
+print("the ASCII value of '"+c+"' is ",ord(c))
