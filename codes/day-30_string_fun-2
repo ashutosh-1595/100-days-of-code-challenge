@@ -1,0 +1,11 @@
+#use of split() function.
+print("\n \t********use of split() function(string into substring,when separator exist)...********")
+print('entered string is= "Hello, World!"')
+a = "Hello, World!"
+print(a.split(",")) # returns ['Hello', ' World!']
+
+#strip function..
+print("\n \t********strip function(remove white space)..********")
+print('entered string is= "Hello, World!"')
+a = " Hello, World! "
+print(a.strip()) # returns "Hello, World!"
