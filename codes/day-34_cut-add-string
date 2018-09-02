@@ -1,0 +1,7 @@
+s=input("enter string: ")
+count=0
+for i in s:
+    count=count+1
+new=s[0:2]+s[count-2:count]
+print("Newly formed string is: ")
+print(new)
