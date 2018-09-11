@@ -1,0 +1,4 @@
+import datetime
+x = datetime.datetime.now()
+print(x.year)
+print(x.strftime("(day , month , digital formate & date & time)= %A , %B , %c "))
