@@ -1,0 +1,5 @@
+from mymodule import person1
+
+print('name-> ',person1["name"])
+print('age-> ',person1["age"])
+print('nationality-> ',person1["country"])
