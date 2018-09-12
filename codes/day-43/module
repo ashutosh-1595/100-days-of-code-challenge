@@ -1,0 +1,8 @@
+def greeting(name):
+  print("Hello, " + name)
+
+person1 = {
+  "name": "Ashutosh pandey",
+  "age": 22,
+  "country": "INDIAN"
+}
