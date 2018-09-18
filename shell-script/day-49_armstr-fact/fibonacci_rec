@@ -1,0 +1,13 @@
+function fibo {
+	echo $1 
+	if [ $2 -gt $3 ] ;then # $3 = Max
+		return
+	fi
+  
+	fibo $2 $(expr $1 + $2) $3
+}
+
+echo -n "Enter the upperlimit: "
+read limit
+
+fibo 0 1 $limit
